@@ -2,31 +2,17 @@
 
 Welcome to my GitHub repository! Here, I showcase the hypothesis testing performed as part of the end-of-course projects for the Google Advanced Data Analytics Certificate. Each project involved applying hypothesis testing methods to real-world data scenarios. Below is a summary of the hypothesis testing work conducted in each project, with links to detailed Python notebooks and executive summaries.
 
-## 1. Automatidata - NYC Taxi Fare Prediction 🚖💵
+## 1. Automatidata - A/B Testing for Taxi Fare Prediction 🚖💵
 
 ### 📚 **Hypothesis Testing Overview:**
-In this project, I applied hypothesis testing to determine the most appropriate method for estimating taxi fares. The goal was to validate our regression model by comparing it against baseline assumptions.
+In this project, the focus was on demonstrating knowledge of preparing, creating, and analyzing A/B tests. The goal was to determine if there is a significant difference in taxi fare amounts based on the payment method.
 
 ### 🔍 **Testing Details:**
-- **Hypothesis Tested**: Whether the regression model significantly improves fare predictions compared to a simple mean model.
-- **Method Used**: Two-sample t-test to compare mean fares predicted by the model and observed fares.
-
-### 📈 **Deliverables:**
-- Well-commented Python notebook with hypothesis testing code
-- Executive summary PowerPoint with findings
-
-
-
----
-
-## 2. TikTok - Claims Classification Model 📱🔍
-
-### 📚 **Hypothesis Testing Overview:**
-For the TikTok project, hypothesis testing was used to evaluate the effectiveness of different classification methods for user reports. The aim was to assess whether the model's predictions were significantly better than random classification.
-
-### 🔍 **Testing Details:**
-- **Hypothesis Tested**: Whether the predictive model significantly improves classification accuracy compared to a random classifier.
-- **Method Used**: Chi-square test for independence to assess the relationship between predicted and actual classifications.
+- **Purpose**: To analyze whether the method of payment (credit card vs. cash) affects the fare amount. The test aimed to find ways to generate more revenue for taxi cab drivers.
+- **Hypothesis Tested**:
+  - **Null Hypothesis ( \( H_0 \) )**: There is no difference in the average fare amount between customers who use credit cards and those who use cash.
+  - **Alternative Hypothesis ( \( H_A \) )**: There is a difference in the average fare amount between customers who use credit cards and those who use cash.
+- **Method Used**: Two-sample t-test (independent samples t-test) to compare the mean fare amounts between the two payment groups.
 
 ### 📈 **Deliverables:**
 - Well-commented Python notebook with hypothesis testing code
@@ -35,14 +21,36 @@ For the TikTok project, hypothesis testing was used to evaluate the effectivenes
 
 ---
 
-## 3. Waze - User Churn Prediction 🗺️📉
+## 2. TikTok - Views Analysis for Verified vs. Unverified Accounts 📱🔍
 
 ### 📚 **Hypothesis Testing Overview:**
-In the Waze project, hypothesis testing was employed to validate factors contributing to user churn. The objective was to determine if specific user behaviors were significantly associated with higher churn rates.
+For the TikTok project, the aim was to demonstrate the ability to prepare, create, and analyze hypothesis tests. The goal was to evaluate whether there is a significant difference in the number of views between TikTok videos posted by verified and unverified accounts.
 
 ### 🔍 **Testing Details:**
-- **Hypothesis Tested**: Whether specific user behaviors (e.g., reduced app usage) significantly correlate with higher churn rates.
-- **Method Used**: Logistic regression analysis to test the impact of various factors on churn probability.
+- **Purpose**: To apply descriptive and inferential statistics to analyze view counts for TikTok videos and determine if account verification status affects video views.
+- **Hypothesis Tested**:
+  - **Null Hypothesis ( \( H_0 \) )**: There is no difference in the number of views between TikTok videos posted by verified accounts and those posted by unverified accounts.
+  - **Alternative Hypothesis ( \( H_A \) )**: There is a difference in the number of views between TikTok videos posted by verified accounts and those posted by unverified accounts.
+- **Method Used**: Two-sample t-test (independent samples t-test) to compare the mean number of views between the two groups of accounts.
+
+### 📈 **Deliverables:**
+- Well-commented Python notebook with hypothesis testing code
+- Executive summary PowerPoint with findings
+
+
+---
+
+## 3. Waze - User Churn and Device Usage 📉🗺️
+
+### 📚 **Hypothesis Testing Overview:**
+In the Waze project, the focus was on demonstrating knowledge of conducting two-sample hypothesis tests. The goal was to test if there is a significant difference in the average number of drives between users with iPhone devices and those with Android devices.
+
+### 🔍 **Testing Details:**
+- **Purpose**: To apply descriptive statistics and hypothesis testing to determine if device type (iPhone vs. Android) affects the number of drives.
+- **Hypothesis Tested**:
+  - **Null Hypothesis ( \( H_0 \) )**: There is no difference in the average number of drives between drivers who use iPhone devices and those who use Android devices.
+  - **Alternative Hypothesis ( \( H_A \) )**: There is a difference in the average number of drives between drivers who use iPhone devices and those who use Android devices.
+- **Method Used**: Two-sample t-test (independent samples t-test) to compare the mean number of drives between the two device groups.
 
 ### 📈 **Deliverables:**
 - Well-commented Python notebook with hypothesis testing code
